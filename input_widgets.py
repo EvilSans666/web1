@@ -1,7 +1,10 @@
 import streamlit as st
 from PIL import Image, ImageColor
 import numpy as np
+<<<<<<< HEAD
 import pandas as pd
+=======
+>>>>>>> upstream/master
 name = st.text_input('Enter your name')
 st.write('Hello', name)
 age = st.number_input('Enter your age', step=1,
@@ -47,8 +50,11 @@ st.write('You selected', level)
 
 color = st.color_picker('Pick a color')
 st.write(f'You picked {ImageColor.getcolor(color, "RGB")}')
+<<<<<<< HEAD
 
 csv = st.file_uploader('Upload CSV', type='csv')
 if csv is not None:
     df = pd.read_csv(csv)
     st.dataframe(df)
+=======
+>>>>>>> upstream/master

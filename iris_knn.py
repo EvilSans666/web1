@@ -12,4 +12,8 @@ st.write(x)
 Xtrain = df.iloc[:, :-1].values
 Ytrain = df.iloc[:, -1].values
 d = np.sum((Xtrain - x)**2, axis=1)
+<<<<<<< HEAD
 st.write('Predicted class:', Ytrain[d.argmin()])
+=======
+st.write('Predicted class:', Ytrain[d.argmin()])
+>>>>>>> upstream/master

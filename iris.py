@@ -12,4 +12,8 @@ df.columns = ['sepal_length', 'sepal_width',
 x = st.selectbox('select X-axis', df.columns[:-1])
 y = st.selectbox('select Y-axis', df.columns[:-1])
 st.write('You selected:', x, y)
+<<<<<<< HEAD
 st.scatter_chart(df, x=x, y=y, color=df.columns[-1])
+=======
+st.scatter_chart(df, x=x, y=y, color=df.columns[-1])
+>>>>>>> upstream/master
